@@ -1,0 +1,29 @@
+{
+  "name": "orangehrm-playwright-bdd",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright and TypeScript BDD automation for the OrangeHRM demo application",
+  "scripts": {
+    "bddgen": "bddgen",
+    "test": "npm run bddgen && playwright test",
+    "test:list": "npm run bddgen && playwright test --list",
+    "test:smoke": "npm run bddgen && playwright test --grep @smoke",
+    "test:regression": "npm run bddgen && playwright test --grep @regression",
+    "test:headed": "npm run bddgen && playwright test --headed",
+    "test:debug": "npm run bddgen && playwright test --debug",
+    "test:report": "playwright show-report",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@playwright/test": "1.60.0",
+    "@types/node": "^25.0.0",
+    "playwright-bdd": "^8.4.2",
+    "prettier": "^3.6.0",
+    "typescript": "^5.9.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.0.0"
+  }
+}
