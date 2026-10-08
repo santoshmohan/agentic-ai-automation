@@ -1,0 +1,119 @@
+[
+ {
+  "time": 1791425972265,
+  "duration": 187970.462,
+  "passed": 6,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 7,
+  "tests": {
+   "::.features-gen/features/login.feature.spec.js::OrangeHRM authentication › A valid user can log in": [
+    "p",
+    28682
+   ],
+   "::.features-gen/features/login.feature.spec.js::OrangeHRM authentication › An invalid user cannot log in": [
+    "p",
+    26189
+   ],
+   "::.features-gen/features/login.feature.spec.js::OrangeHRM authentication › Username is required": [
+    "p",
+    19798
+   ],
+   "::.features-gen/features/login.feature.spec.js::OrangeHRM authentication › Password is required": [
+    "p",
+    26103
+   ],
+   "::.features-gen/features/login.feature.spec.js::OrangeHRM authentication › Username and password are required": [
+    "p",
+    31329
+   ],
+   "::.features-gen/features/login.feature.spec.js::OrangeHRM authentication › A user can open password recovery": [
+    "p",
+    19305
+   ],
+   "::.features-gen/features/login.feature.spec.js::OrangeHRM authentication › A logged-in user can log out": [
+    "f",
+    34912
+   ]
+  }
+ },
+ {
+  "time": 1791428862224,
+  "duration": 189021.7120000003,
+  "passed": 7,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 7,
+  "tests": {
+   "::.features-gen/features/login.feature.spec.js::OrangeHRM authentication › A valid user can log in": [
+    "p",
+    27207
+   ],
+   "::.features-gen/features/login.feature.spec.js::OrangeHRM authentication › An invalid user cannot log in": [
+    "p",
+    24000
+   ],
+   "::.features-gen/features/login.feature.spec.js::OrangeHRM authentication › Username is required": [
+    "p",
+    22814
+   ],
+   "::.features-gen/features/login.feature.spec.js::OrangeHRM authentication › Password is required": [
+    "p",
+    29452
+   ],
+   "::.features-gen/features/login.feature.spec.js::OrangeHRM authentication › Username and password are required": [
+    "p",
+    29284
+   ],
+   "::.features-gen/features/login.feature.spec.js::OrangeHRM authentication › A user can open password recovery": [
+    "p",
+    25922
+   ],
+   "::.features-gen/features/login.feature.spec.js::OrangeHRM authentication › A logged-in user can log out": [
+    "p",
+    28620
+   ]
+  }
+ },
+ {
+  "time": 1791429236483,
+  "duration": 144897.70699999994,
+  "passed": 7,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 7,
+  "tests": {
+   "::.features-gen/features/login.feature.spec.js::OrangeHRM authentication › A valid user can log in": [
+    "p",
+    24223
+   ],
+   "::.features-gen/features/login.feature.spec.js::OrangeHRM authentication › An invalid user cannot log in": [
+    "p",
+    22487
+   ],
+   "::.features-gen/features/login.feature.spec.js::OrangeHRM authentication › Username is required": [
+    "p",
+    18539
+   ],
+   "::.features-gen/features/login.feature.spec.js::OrangeHRM authentication › Password is required": [
+    "p",
+    20976
+   ],
+   "::.features-gen/features/login.feature.spec.js::OrangeHRM authentication › Username and password are required": [
+    "p",
+    15788
+   ],
+   "::.features-gen/features/login.feature.spec.js::OrangeHRM authentication › A user can open password recovery": [
+    "p",
+    20323
+   ],
+   "::.features-gen/features/login.feature.spec.js::OrangeHRM authentication › A logged-in user can log out": [
+    "p",
+    20970
+   ]
+  }
+ }
+]

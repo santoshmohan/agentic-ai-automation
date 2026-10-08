@@ -1,6 +1,8 @@
 import dotenv from 'dotenv';
 import { defineConfig } from '@playwright/test';
 import { defineBddConfig } from 'playwright-bdd';
+import reportingLabs from './reporting-labs.config';
+
 
 dotenv.config();
 
@@ -15,7 +17,9 @@ export default defineConfig({
   forbidOnly: Boolean(process.env.CI),
   retries: process.env.CI ? 2 : 0,
   workers: 1,
-  reporter: [['list'], ['html', { open: 'never' }], ['junit', { outputFile: 'test-results/results.xml' }]],
+  reporter: [['list'], 
+  ['reporting-labs', reportingLabs],
+  ['html', { open: 'never' }], ['junit', { outputFile: 'test-results/results.xml' }]],
   use: {
     baseURL: process.env.ORANGEHRM_URL ?? 'https://opensource-demo.orangehrmlive.com',
     screenshot: 'only-on-failure',
